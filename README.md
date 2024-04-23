@@ -205,7 +205,7 @@ end
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 OrionLib:MakeNotification({
 	Name = "Injection Success",
-	Content = "Thanks for using 7xG Script\n\n\n",
+	Content = "Api loaded\n\n\n",
 	Image = "rbxassetid://4483362748",
 	Time = 5
 })
