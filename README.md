@@ -179,15 +179,15 @@ getgenv().saveinstance = function(saving)
     end
     writefile(("game_%s.rbxlx"):format(game.PlaceId),table.concat(temp," ").."</roblox>")
     print(("Done! Took %ss"):format(math.round((tick()-timer)*100)/100)) 
-    print("7xG on top")
+    print("Hyze on top")
 end
 
 getgenv().identifyexecutor = function()
-    return "7xG"
+    return "Hyze"
 end
 
 getgenv().getexecutorname = function()
-    return "7xg"
+    return "Hyze"
 end
 
 getgenv().getscriptclosure = function(targetScript)
