@@ -205,7 +205,7 @@ end
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 OrionLib:MakeNotification({
 	Name = "Injection Success",
-	Content = "Api loaded\n\n\n",
+	Content = "Hyze Api Loaded Enjoy!\n\n\n",
 	Image = "rbxassetid://4483362748",
 	Time = 5
 })
@@ -227,7 +227,7 @@ getgenv().syn_clipboard_set = setclipboard
 getgenv().syn_clipboard_get = getclipboard
 getgenv().syn_islclosure = islclosure
 getgenv().syn_iscclosure = iscclosure
---getgenv().table.lock = makereadonly
+getgenv().table.lock = makereadonly
 getgenv().table.islock = isreadonly
 getgenv().table.unlock = makewriteable
 getgenv().syn_getsenv = getsenv
